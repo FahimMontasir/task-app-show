@@ -154,7 +154,7 @@ a {
  }
  iframe {
     width: 100%;
-    border-radius: 1em;
+    border-radius: 10em 3em;
 }
 @media only screen and (min-width: 768px) {
     nav {
@@ -201,5 +201,13 @@ a {
     input {
         width: 50%;
     }
-   
+   iframe {
+       width: 40%;
+    }
+   .contact {
+       display: flex;
+   }
+   .contact-message{
+       width: 55%;
+   }
   }
